@@ -1,0 +1,45 @@
+.main{
+    margin-top: 22px;
+}
+
+.main__services{
+    display: flex;
+}
+
+.main__services_leftside {
+    margin-top: 125px;
+}
+
+.main__services_leftside-text {
+}
+.main__services_leftside-text--title {
+    width: 635px;
+    
+    font-family: "Manrope-Bold800", Arial, sans-serif;
+    font-size: 46px;
+    line-height: 130%;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: var(--black);
+}
+.main__services_leftside-text--subtitle {
+    width: 602px;
+
+    font-family: "Manrope-Medium400", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: var(--graySecond);
+}
+.main__services_leftside-btns {
+}
+.main__services_leftside-btns--request {
+}
+.main__services_leftside-btns--calculator {
+}
+.main__services_rightside {
+}
+.main__services_rightside-img {
+}
