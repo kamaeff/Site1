@@ -26,3 +26,12 @@ languages.forEach(lang => {
     });
 
 });
+
+const sandwichmenu = document.querySelector('#btn');
+const js_menu = document.querySelector('.js_menu');
+
+sandwichmenu.addEventListener('click', function(e) {
+  e.preventDefault();
+  sandwichmenu.classList.toggle('active');
+  js_menu.classList.toggle('active');
+});

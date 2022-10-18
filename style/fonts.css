@@ -61,3 +61,21 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Montserrat-Bold700";
+    src: url("../fonts/Montserrat-SemiBold.woff") format("woff");
+
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold600";
+    src: url("../fonts/Montserrat-SemiBold.woff") format("woff");
+
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

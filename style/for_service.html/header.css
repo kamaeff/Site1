@@ -1,0 +1,192 @@
+
+.header{
+    width: 1141px;
+    height: 133px;
+
+    margin-top: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    margin-right: 30px;
+}
+
+.header__nav_container {
+    display: flex;
+}
+
+.header__main-menu{
+    display: flex;
+    gap: 38px;
+    list-style: none;
+
+}
+
+.header__main-menu a{
+    font-family: "Manrope-Bold500", Arial, sans-serif;
+
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+
+    color: var(--graySecond);
+}
+
+.header__main-menu a:hover{
+    color: var(--black);
+    border-bottom: 1px dashed var(--bgBlue);
+}
+
+.info__list { 
+    width: 180px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.list__item {
+    display: none;
+
+    margin-left: 9px;
+    margin-right: 46px;
+
+    font-family: 'Manrope-Bold700', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-decoration: none;
+    color: var(--black);
+  }
+
+.list__take{
+    margin-left: 9px;
+
+    font-family: "Manrope-Medium400", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+
+    /* gray */
+    color: var(--gray);
+}
+
+.list__item:hover{
+    background: var(--bgBlue);
+    color: var(--whiteColor);
+}
+
+.list__item--active,
+.list__item--show {
+  display: block;
+  
+}
+
+.list__item--active{
+    order: 0;
+;
+  }
+
+.header__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__info-services{
+    width: 151px;
+    height: 38px;
+
+    margin-left: 16px;
+    margin-right: 135px;
+
+    font-family: 'Manrope-Bold600', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: var(--gray);
+}
+
+.header__btn{
+    margin-left: 127px;
+    padding: 8.42px 20.88px;
+
+    font-family: 'Manrope-Bold800', Arial, sans-serif;
+    font-size: 12.4667px;
+    line-height: 30px;
+
+    letter-spacing: 0.02em;
+
+    color: var(--whiteColor);
+    background: var(--bgBlue);
+    box-shadow: 0px 1.24667px 4.98667px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header__btn:hover{
+    background: var(--gray);
+}
+
+.info__contacts {
+    width: 200px;
+
+    margin-left: 10px;
+}
+
+.info__contacts-number {
+    font-family: 'Manrope-Bold700', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: var(--black);
+}
+
+.info__contacts-time {
+    font-family: 'Manrope-Medium400', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: var(--gray);
+}
+
+.menu__services-list{
+    position: absolute;
+
+    display: none;
+    
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.menu__services-list a {
+    display: block;
+    padding: 12px 16px;
+
+    font-family: 'Manrope-Bold700', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--black);
+
+    text-decoration: none;
+}
+
+
+.menu__services-list a:hover {background-color: #f1f1f1;}
+.dropdown:hover .menu__services-list {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: var(--black);
+}

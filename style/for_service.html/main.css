@@ -1,0 +1,375 @@
+.main{
+    margin-top: 22px;
+}
+
+.services{
+    display: flex;
+}
+
+.services__leftside {
+    margin-top: 67px;
+}
+
+.services__leftside_text--title {
+    width: 635px;
+    
+    font-family: "Manrope-Bold800", Arial, sans-serif;
+    font-size: 46px;
+    line-height: 130%;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: var(--black);
+}
+
+.services__lefside_text-info {
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 40px;
+}
+
+.services__lefside_text-info--number {
+    margin-right: 11px;
+
+    font-family: 'Manrope-Bold800', Arial, sans-serif;
+    font-size: 46px;
+    line-height: 130%;
+
+    color: var(--bgBlue);
+
+    transform: rotate(0.38deg);
+}
+
+.services__lefside_text-info--deg{
+    margin-top: 17px;
+    margin-left: -11px;
+    margin-right: 11px;
+
+    font-family: 'Manrope-Bold800', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 130%;
+
+    color: var(--bgBlue);
+
+    transform: rotate(0.38deg);
+}
+
+.services__lefside_text-info--text {
+    width: 103px;
+
+    font-family: 'Manrope-Bold600';
+    font-size: 18px;
+    line-height: 22px;
+
+    color: var(--graySecond);
+}
+
+.text-third{
+    width: 250px;
+}
+
+.services__leftside_text--subtitle {
+    width: 602px;
+
+    font-family: "Manrope-Medium400", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 130%;
+
+    color: var(--graySecond);
+}
+
+.main__services_leftside-text--arrow{
+    margin-left: 300px;
+    margin-top: -32px;
+    margin-bottom: 5px;
+    transform: rotate(-35deg);
+}
+
+.services__leftside_btns {
+    display: flex;
+    gap: 12px;
+}
+
+.services__leftside_btns--request {
+    cursor: pointer;
+    padding: 14px 36px;
+
+    font-family: "Manrope-Bold600", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 48px;
+
+    letter-spacing: 0.02em;
+    text-decoration: none   ;
+
+    color: var(--whiteColor);
+    background: var(--bgBlue);
+    border: 1px solid var(--bgBlue);
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services__leftside_btns--request:hover{
+    background: var(--graySecond);
+    border: 1px solid var(--graySecond);
+}
+
+.services__leftside_btns--calculator {
+    cursor: pointer;
+    padding: 14px 32px;
+
+    font-family: "Manrope-Bold600", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 48px;
+
+    letter-spacing: 0.02em;
+
+    color: var(--black);
+    background: none;
+    border: 2px solid var(--bgBlue);
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services__leftside_btns--calculator:hover{
+    border: 2px solid var(--graySecond);
+    color: var(--graySecond);
+}
+
+.services__img{
+    margin-top: 39px;
+}
+
+.price {
+    width: 1237px;
+
+    background: var(--whiteColor);
+    border-radius: 8px;
+}
+
+.price__title {
+    padding-top: 30px;
+    margin-left: 80px;
+
+    font-family: "Manrope-Bold800", Arial, sans-serif;
+    font-size: 46px;
+    line-height: 130%;
+
+    color: var(--black);
+
+    transform: rotate(0.38deg);
+}
+
+.price__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: column;
+    grid-column-gap: 1em;
+    margin-left: 52px;
+
+    align-items: center;
+}
+
+.price__container_item {
+    width: 556px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    background: #F5F7FE;
+
+    border-radius: 15px;
+}
+
+.price__container_item--title {
+    width: 244px;
+
+    margin-left: 30px;
+
+    font-family: "Manrope-Bold700", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: var(--black);
+
+    transform: rotate(0.38deg);
+}
+
+.price__container_item--price {
+    width: 100px;
+
+    margin-right: 65px;
+
+    font-family: "Manrope-Bold800", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: var(--bgBlue);
+
+    transform: rotate(0.38deg);
+}
+
+.price__container_item--btn {
+    cursor: pointer;
+    padding: 8px 16px;
+
+    font-family: 'Inter-Regular400';
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: -0.006em;
+
+    color: var(--gray);
+    background: none;
+    border: 1px solid var(--bgBlue);
+    border-radius: 10px;
+
+    transform: rotate(0.38deg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.price__container_item--btn:hover{
+    background: var(--bgBlue);
+    color: var(--whiteColor);
+}
+
+.item__container {
+    display: flex;
+    align-items: center;
+}
+.item__container--item {
+    margin-top: 7px;
+    margin-left: -85px;
+    margin-right: 40px;
+
+    font-family: "Manrope-Bold800", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 27px;
+
+    color: var(--bgBlue);
+
+    transform: rotate(0.38deg);
+}
+
+.item__white{
+    background: var(--whiteColor);
+}
+
+
+.prices__infoline {
+    display: flex;
+    gap: 34px;
+    margin-top: 138px;
+
+    align-items: center;
+}
+
+.infoline__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoline__container--item {
+    font-family: "Manrope-Bold500",Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: var(--graySecond);
+}
+
+.infoline__container--arrow {
+    margin-left: 16px;
+}
+
+
+.prices__container {
+    width: 359px;
+    height: 321px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 35px;
+    gap: 20px;
+
+    margin-top: 50px;
+}
+
+.container__leftside {
+    display: grid;
+}
+
+.container__leftside_block {
+    display: flex;
+    gap: 61px;
+}
+
+.block--title {
+    font-family: 'Montserrat-Bold700',Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.1px;
+
+    color: var(--black);
+}
+
+.block--btn {
+    cursor: pointer;
+    padding: 2px 8px;
+
+    display: flex;
+    align-items: center;
+
+    background: #E6EDFE;
+    border: 1px solid #E6EDFE;
+    border-radius: 28px;
+}
+
+.block--btn:hover{
+    background: var(--bgBlue);
+    border: 1px solid var(--bgBlue);
+}
+
+.block--btn:hover path{
+    fill: var(--whiteColor);
+}
+
+.block__apartments {
+    width: 359px;
+    height: 321px;
+
+    display: grid;
+
+    margin-top: 23px;
+    gap: 9px;
+}
+
+.block__apartments:hover{
+    border-bottom: 1px solid #E4E4E4;;
+}
+
+.block__apartments--item {
+    font-family: 'Montserrat-Bold600',Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.2px;
+
+    text-decoration: none;
+    color: var(--graySecond);
+}
